@@ -29,5 +29,15 @@
 		<servlet-name>appServlet</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-
+	<filter>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<filter-Class>org.springFramework.web.filter.DelegatinfFilterProxy</filter-Class>
+		
+	</filter>
+	<filter-mapping>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<url-patten>/*</url-patten>
+	</filter-mapping>
+	
+	
 </web-app>
