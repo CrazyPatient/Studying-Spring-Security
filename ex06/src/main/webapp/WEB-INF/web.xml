@@ -39,5 +39,9 @@
 		<url-patten>/*</url-patten>
 	</filter-mapping>
 	
+	<context-param>
+	
+	</context-param>
+	
 	
 </web-app>
